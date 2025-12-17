@@ -5,7 +5,7 @@ app.createApp()
 
 //Handling GET request.
 app.on('/', 'get', (req,res) => {
-    res.end('Welcome to Lazy.js !!')
+    res.end('Welcome to Khaosoi.js !!')
 })
 
 //Handling POST request.

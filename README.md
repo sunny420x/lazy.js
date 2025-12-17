@@ -3,13 +3,13 @@
 Look like express.js but it's not!!
 </p>
 <h2>Usage:</h2>
-<pre>const Lazy = require('./src/lazy')
-const app = new Lazy(4000) //Listening on port number 4000.
+<pre>const khaosoi = require('./src/khaosoi')
+const app = new khaosoi(4000) //Listening on port number 4000.
 app.createApp()
 </pre>
 <h3>Handling GET request</h3>
 <pre>app.on('/', 'get', (req,res) => {
-    res.end('Welcome to Lazy.js !!')
+    res.end('Welcome to Khaosoi.js !!')
 })
 </pre>
 <h3>Handling POST request</h3>
