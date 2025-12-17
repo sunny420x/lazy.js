@@ -5,7 +5,7 @@ app.createApp()
 
 //Handling GET request.
 app.on('/', 'get', (req,res) => {
-    res.end('Welcome to Khaosoi.js !!')
+    res.end('Welcome to Khaosoi.js 🍜 Made with love from developer to developer ❤️')
 })
 
 //Handling POST request.
@@ -16,6 +16,6 @@ app.on('/', 'post', (req,res) => {
 //Responing JSON Object.
 app.on('/json', 'get', (req,res) => {
     res.json({
-        message: "Hello World!"
+        message: "Khaosoi Aroi mak! 🤪"
     })
 })

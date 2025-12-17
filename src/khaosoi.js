@@ -31,7 +31,7 @@ class Lazy {
         })
 
         this.app.listen(this.port, () => {
-            console.log(`Lazy is started at http://localhost:${this.port}.`)
+            console.log(`Khaosoi is started at http://localhost:${this.port}.`)
         })
     }
 
