@@ -1,6 +1,6 @@
-const Lazy = require('./src/lazy')
+const khaosoi = require('./src/khaosoi')
 
-const app = new Lazy(4000)
+const app = new khaosoi(4000)
 app.createApp()
 
 //Handling GET request.
