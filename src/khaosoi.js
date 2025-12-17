@@ -19,6 +19,14 @@ class Khaosoi {
                 res.end(JSON.stringify(data));
             };
 
+            res.xml = (data, statusCode = 200) => {
+                if (res.writableEnded) return;
+
+                res.statusCode = statusCode;
+                res.setHeader('Content-Type', 'application/xml');
+                res.end(data);
+            };
+
             const key = `${req.method}:${req.url}`;
             const handler = this.routes[key];
 
