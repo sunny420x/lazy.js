@@ -1,4 +1,4 @@
-<h1>Lazy.js</h1>
+<h1>Khaosoi.js</h1>
 <p>
 Look like express.js but it's not!!
 </p>
