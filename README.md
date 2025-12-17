@@ -18,6 +18,16 @@ app.createApp()
     res.end('This is POST !!')
 })
 </pre>
+<h3>Handling PUT request</h3>
+<pre>app.on('/', 'put', (req,res) => {
+    res.end('This is PUT !!')
+})
+</pre>
+<h3>Handling DELETE request</h3>
+<pre>app.on('/', 'delete', (req,res) => {
+    res.end('This is DELETE !!')
+})
+</pre>
 <h3>Responing with JSON Object</h3>
 <pre>app.on('/json', 'get', (req,res) => {
     res.json({
@@ -26,15 +36,11 @@ app.createApp()
 })
 </pre>
 <h3>Handling Express.js style!!</h3>
-<pre>app.get('/json', (req,res) => {
-    res.json({
-        message: "This is GET !!!"
-    })
-})
+<pre>app.get('/json', (req,res) => { ... })
 </pre>
-<pre>app.post('/json', (req,res) => {
-    res.json({
-        message: "This is POST !!!"
-    })
-})
+<pre>app.post('/json', (req,res) => { ... })
+</pre>
+<pre>app.put('/json', (req,res) => { ... })
+</pre>
+<pre>app.delete('/json', (req,res) => { ... })
 </pre>
