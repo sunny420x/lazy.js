@@ -1,6 +1,6 @@
 const http = require('http');
 
-class Lazy {
+class Khaosoi {
     port = 3000
     app = null
     
@@ -48,4 +48,4 @@ class Lazy {
     }
 }
 
-module.exports = Lazy;
+module.exports = Khaosoi;
