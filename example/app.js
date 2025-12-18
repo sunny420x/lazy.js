@@ -1,4 +1,4 @@
-const khaosoi = require('./src/khaosoi')
+const khaosoi = require('../src/khaosoi')
 
 const app = new khaosoi(4000)
 app.createApp()
