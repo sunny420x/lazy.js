@@ -44,3 +44,10 @@ app.createApp()
 </pre>
 <pre>app.delete('/json', (req,res) => { ... })
 </pre>
+<h3>Accessing Body Payload</h3>
+<pre>app.on('/api/receive-data', 'post', (req,res) => {
+    req.getBodyPayload((payload) => {
+        ...
+    })
+    res.end()
+})</pre>
