@@ -1,6 +1,6 @@
 const khaosoi = require('./src/khaosoi')
 
-const app = new khaosoi(4000)
+const app = new khaosoi(4220)
 app.createApp()
 
 //Handling GET request.
