@@ -3,7 +3,7 @@
 <p>
 Look like express.js but it's not!!
 </p>
-<h2>Usage:</h2>
+<h2>☕️ Usage:</h2>
 <pre>const khaosoi = require('./src/khaosoi')
 const app = new khaosoi(4000) //Listening on port number 4000.
 app.createApp()
@@ -41,6 +41,11 @@ app.createApp()
     res.json({
         message: "Hello World!"
     })
+})
+</pre>
+<h3>🎨 Responing with HTML</h3>
+<pre>app.on('/', 'get', (req,res) => {
+    res.render('./views/home.html')
 })
 </pre>
 <h3>🌟 Bonus!! Handling Express.js styles!!</h3>
